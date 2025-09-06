@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça-Níquel</title>
+    <link rel="stylesheet" href="cassino.css">
+</head>
+<body>
+
+    <h1>Roleta da Sorte</h1>
+
+    <div class="bet-container">
+        <label for="bet">Valor da Aposta (R$): </label>
+        <input type="number" id="bet" min="1" value="10">
+    </div>
+
+    <div class="slot-machine-wrapper">
+        <div class="roleta-container">
+        <img src="roleta_cassino.png" alt="Roleta" class="roleta-fundo">
+
+            <div class="slot" id="slot1"><img src="7.png" alt="7"></div>
+            <div class="slot" id="slot2"><img src="https://em-content.zobj.net/source/apple/325/gem-stone_1f48e.png" alt="Gema"></div>
+            <div class="slot" id="slot3"><img src="https://images.emojiterra.com/google/android-12l/512px/1f514.png" alt="Sino"></div>
+    </div>
+
+
+</div>
+    <button onclick="spin()">Girar Alavanca</button>
+
+
+    <div id="result"></div>
+    <div id="try-again" class="try-again"></div>
+
+    <audio id="win-sound">
+    <source src="hbrtf1351c6-slot-machine-sfx-3.mp3" type="audio/mpeg">
+    </audio>
+
+    <img src="logo_cassino.png" alt="Logo do Cassino" class="logo">
+
+    <script src="cassino.js"></script>
+</body>
+</html>
+
