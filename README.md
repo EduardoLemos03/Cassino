@@ -19,3 +19,4 @@ Bem-vindo ao projeto **Cassino Dumau"s** — uma experiência visual e interativ
 1. Clone o repositório:
    ```bash
    git clone https://github.com/EduardoLemos03/Cassino.git
+>>>>>>> dc83ab6 (Atualizando nova Versão Cassino : novo visual.)
